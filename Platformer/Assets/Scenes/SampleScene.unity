@@ -198,7 +198,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ac5f30b54221094db020fa01e31e0ce, type: 2}
+  - {fileID: 2100000, guid: 103acacb2f693514bb43c1b23c7d079f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -240,7 +240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e76deb76e0783f488cbefc4ded415f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasPlayer: 0
 --- !u!1 &63855854
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,7 +301,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ac5f30b54221094db020fa01e31e0ce, type: 2}
+  - {fileID: 2100000, guid: 103acacb2f693514bb43c1b23c7d079f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -359,7 +358,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e76deb76e0783f488cbefc4ded415f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasPlayer: 0
 --- !u!1 &253579347
 GameObject:
   m_ObjectHideFlags: 0
@@ -404,7 +402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0d15369e1910f4391c9207e729c5ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1652099292}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,10 +734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7297c4b20aba4f34a970fffc60a144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  detectDistance: 5
-  attackDistance: 3
-  floor: {fileID: 1749091167}
 --- !u!1 &1294830682
 GameObject:
   m_ObjectHideFlags: 0
@@ -802,7 +795,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ac5f30b54221094db020fa01e31e0ce, type: 2}
+  - {fileID: 2100000, guid: 103acacb2f693514bb43c1b23c7d079f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -859,7 +852,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e76deb76e0783f488cbefc4ded415f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasPlayer: 0
 --- !u!1 &1477692881
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,7 +913,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ac5f30b54221094db020fa01e31e0ce, type: 2}
+  - {fileID: 2100000, guid: 103acacb2f693514bb43c1b23c7d079f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -978,7 +970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e76deb76e0783f488cbefc4ded415f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasPlayer: 0
 --- !u!1 &1581670005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 13d1d89eb4aeb38408f8108be561a4ad, type: 3}
   m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1191,11 +1183,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1652099292}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f08b62dac9897ac458cb24542da1ad7b, type: 3}
+  m_Script: {fileID: 11500000, guid: 6432ea22da090e642b4863afa5b0807c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 25
+  speed: 0
+  jumpForce: 0
 --- !u!1 &1749091161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,7 +1264,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ac5f30b54221094db020fa01e31e0ce, type: 2}
+  - {fileID: 2100000, guid: 103acacb2f693514bb43c1b23c7d079f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1314,7 +1306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e76deb76e0783f488cbefc4ded415f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasPlayer: 0
 --- !u!1 &1757231022
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,7 +1367,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0ac5f30b54221094db020fa01e31e0ce, type: 2}
+  - {fileID: 2100000, guid: 103acacb2f693514bb43c1b23c7d079f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1433,7 +1424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e76deb76e0783f488cbefc4ded415f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasPlayer: 0
 --- !u!1 &2090026423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,10 +1570,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7297c4b20aba4f34a970fffc60a144e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  detectDistance: 5
-  attackDistance: 3
-  floor: {fileID: 1757231027}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
